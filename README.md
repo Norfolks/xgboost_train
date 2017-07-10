@@ -11,4 +11,4 @@ creditcards.csv is so big for the repository, so download it on yourown via http
 
 1) cd classification
 2) python xgboost_train_classification.py
-3) Result with cofused matrix example
+3) Result with confused matrix example
