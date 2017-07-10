@@ -9,7 +9,7 @@ from sklearn import preprocessing
 from sklearn import metrics
 
 # Load raw data
-auto_data = pd.read_csv("regression/autos.csv", encoding="ISO-8859-1")
+auto_data = pd.read_csv("autos.csv", encoding="ISO-8859-1")
 
 # Clear it
 auto_data = auto_data.fillna(auto_data.median().astype(np.int64))
